@@ -1,0 +1,40 @@
+*{
+	padding:0;
+	margin:0;
+	/*правило вычисления размеров элементов:по границе элимента*/
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+}
+body{
+	margin: 0;
+	background-color:pink;
+}
+main{
+	width: 90%;
+	margin: auto;
+	background-color: red;
+	max-width: 1000px;
+	display: flex;
+	/*переносы (если элементы не вмещаются)*/
+	flex-wrap: wrap;
+	/* тень вокруг элемента*/
+	/* первые два числа - смещение по х и у, 3-е число - размытие*/
+	/* потом толщина тени и её цвет*/
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.3);
+}
+.icon{
+	width:100%;
+	height:100%;
+	background-position: center;
+	background-size: cover;
+}
+.img-link{
+	display: block;
+	max-width:500px;
+	max-height:490px;
+	width:calc(90vw / 2 - 10px);
+	height:calc(95vh / 16*9);
+	margin:5px;
+
+}
