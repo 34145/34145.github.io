@@ -1,0 +1,14 @@
+body {                      /*внутрений отступ*/
+  padding:0;                /*цвет фона*/  
+  background-color: Lime;
+}
+button {                     
+	width: 200px;          /*ширина*/
+	height: 100px;         /*высота*/
+    font-size: 50px;       /*размер шрифта*/
+    border-radius: 1000px   /*радиус скругленных углов*/
+    outline:none;          /*отключение автоматической обводки*/
+    background-color: brown;/*цвет фона*/
+    color:white;            /*цвет шрифта*/
+    border: 5px solid white;
+}
