@@ -40,7 +40,7 @@ main{
 }
 .img-link:hover{
 	/*/Плавность анимации/*/ 
-	/*transition: 1.5s; */   
+	transition: 1.5s;    
 	/*/Размытие/ */
 	/*/filter: blur(4px);/    */
 /*	/Яркость/*/    
