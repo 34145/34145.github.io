@@ -44,11 +44,11 @@ main{
 	/*/Размытие/ */
 	/*/filter: blur(4px);/    */
 /*	/Яркость/*/    
-	filter: brightness(200%);     
+	/*filter: brightness(200%);*/     
 	/*/Контрастность/    */
 	/*/filter: contrast(50%);/*/    
 	/*/Отбрасывание тени*/     
-	filter: drop-shadow(10px 82px 82px blue); 
+	/*filter: drop-shadow(10px 82px 82px blue);*/ 
 
 	/*filter:grayscale(1.5)*/
 
@@ -65,4 +65,5 @@ main{
 	/*Перенос*/
 	/*transform:translate(-200px, -100px);*/
 	transform: scale(0.5) rotate(-15deg) translate(-200px, -100px);
+	filter: drop-shadow(10px 82px 82px blue) brightness(200%) saturate(5);
 }
